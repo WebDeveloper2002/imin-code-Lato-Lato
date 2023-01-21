@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 120px;
+    display: inline;
+    padding-top: 100px;
+}
+
+h1 {
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+#score {
+    padding: 17px;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    filter: drop-shadow(3px 3px 3px rgba(100, 0, 0, 0.9));
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.arena {
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform-origin: top;
+}
+
+.tali {
+    width: 4px;
+    height: 200px;
+    background: yellow;
+}
+
+.biji {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: red;
+    border: 1px solid yellow;
+
+}
